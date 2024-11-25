@@ -585,20 +585,7 @@ nav a:hover::after {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-
-@media (max-width: 995px) {
-    nav {
-        position: fixed;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 60%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem;
-        background-color: #161616;
-        transition: transform 0.3s ease;
-        transform: translateX(100%);
-    }
+nav {
+    gap: 3em;
+    display: flex;
 }
