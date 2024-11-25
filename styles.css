@@ -1,24 +1,15 @@
-To enhance the visual appeal and professionalism of your existing CSS and HTML structure, you can incorporate some additional CSS animations and effects. Here's a revised version that maintains the same colors and general style but adds some animations and improvements for a more polished appearance:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 
         * {
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-            border: none;
-            outline: none;
-            font-family: 'Poppins', sans-serif;
         }
+        * {
+            font-family: "Cutive Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
 
 
         html {
