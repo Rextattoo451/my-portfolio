@@ -277,33 +277,4 @@ p{
                     }
             
                 </style>
-            </head>
-            
-            <body>
-                <div class="background"></div>
-                <header>
-                    <div class="logo">Logo</div>
-                    <nav>
-                        <a href="#">class="active">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Contact</a>
-                    </nav>
-                </header>
-                <section class="home">
-                    <div class="home-content">
-                        <h1>Welcome</h1>
-                        <h3>To Our Amazing Website</h3>
-                        <div class="btn">Get Started</div>
-                    </div>
-                    <div class="home-img">
-                        <img src="yourimage.jpg" alt="Home">
-                    </div>
-                </section>
-              
-                }
-            </body>
-            
-            
-            </html>
-        
+
