@@ -176,26 +176,26 @@ nav a.active{
 
     
 
- .port2 img{
-    display: flex;
-    justify-content: center;
+.port2 img {
+    display: block; /* Changed from flex since it's not needed for single images */
+    margin: 0 auto; /* Centers the image horizontally */
     border-radius: 20%;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+    width: 80%; /* Reduced from 100% to make images slightly smaller */
     height: auto;
-    padding: 10%;
- }
- .port2-porrtis{
+    padding: 5%; /* Reduced padding for better spacing */
+}
+
+.port2-porrtis {
     position: relative;
     padding: 20px;
     border-radius: 0%;
     cursor: pointer;
     transition: 0.2s linear;
-    width: 50%;
+    width: 40%; /* Reduced from 50% to make images smaller */
     height: auto;
+    margin: 0 auto; /* Centers the element horizontally */
+}
 
- }
 
 
 .home-img {
